@@ -2,6 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 #encapulation class
+@smoke
 class Browser:
     def __init__(self):
         self.driver = webdriver.Chrome()
