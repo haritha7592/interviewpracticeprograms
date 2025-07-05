@@ -1,12 +1,13 @@
-# a = "hi"
-# b = "worldunion"
-# a = a + b
-# print(a)
-# b = a[:len(a) - len(b)]
-# print(b)
-# a = a[len(b):]
-# print(a)
-# print(b)
+@smoke
+a = "hi"
+b = "worldunion"
+a = a + b
+print(a)
+b = a[:len(a) - len(b)]
+print(b)
+a = a[len(b):]
+print(a)
+print(b)
 from os.path import split
 
 # l = [1,2,3]
